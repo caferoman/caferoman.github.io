@@ -7,6 +7,16 @@ permalink: index.html
 summary: This is personal wikipedia for about sing-a-song writer's note, reader's review and the things that I am interested in.
 ---
 
+### 三文章日記 (Write a diary with three sentences)
+
+This is one of my To-Do-List in 2021.
+The similar project was tried while I was in Sri-lanka(2005~2007) and this was much tough than the former.
+(Keeping diarys every day in four languages: Korean, English, Sinhalese and German.)
+
+[japanese_diary]
+
+## Sample(ing)
+
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
 ## Build the Theme
@@ -141,7 +151,7 @@ If you want to set different sidebar defaults based on different folders for you
 
 This would load the `mydoc_sidebar` for each file in **pages/mydoc**. You could set different defaults for different path scopes.
 
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation].
+For more detail on the sidebar, see [Sidebar navigation]
 
 ## Top navigation
 
@@ -299,7 +309,7 @@ To accommodate the title page and table of contents in PDF outputs, each product
 
 Leave the output as `output: pdf` for these frontmatter pages so that they don't appear in the web output.
 
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation] and [YAML tutorial][mydoc_yaml_tutorial].
+For more detail on the sidebar, see [Sidebar navigation] and [YAML tutorial][mydoc_yaml_tutorial].
 
 ## Comments
 
