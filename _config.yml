@@ -95,7 +95,7 @@ defaults:
 
 comment:
   type: disqus
-  shortname: daeduekcho
+  shortname: caferoman
 
 
 # these are defaults used for the frontmatter for these file types
