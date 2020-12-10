@@ -20,7 +20,7 @@ The similar project was tried while I was in Sri-lanka(2005~2007) and this was m
 독서노트라고 하기엔 너무 거창하지만 책을 읽으면서 마음에 들었던 구절과 짦은 소감이 포함된 페이지
 곡을 쓰거나 대화를 하다가 가끔 읽었던 책의 특정 구절이 생각나지 않아 정리하기 시작한 페이지
 
-### 철학
+### 철학   
 
 [book_review_schopenhauer]
 
