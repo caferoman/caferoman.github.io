@@ -7,7 +7,7 @@ permalink: index.html
 summary: This is personal wikipedia for about sing-a-song writer's note, reader's review and the things that I am interested in.
 ---
 
-### 三文章日記 (Write a diary with three sentences)
+## 三文章日記 (Write a diary with three sentences)
 
 This is one of my To-Do-List in 2021.
 The similar project was tried while I was in Sri-lanka(2005~2007) and this was much tough than the former.
@@ -15,15 +15,14 @@ The similar project was tried while I was in Sri-lanka(2005~2007) and this was m
 
 [japanese_diary]
 
-## Sample(ing)
+## Double D's Book Shelf - 더블디의 독서노트
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+독서노트라고 하기엔 너무 거창하지만 책을 읽으면서 마음에 들었던 구절과 짦은 소감이 포함된 페이지
+곡을 쓰거나 대화를 하다가 가끔 읽었던 책의 특정 구절이 생각나지 않아 정리하기 시작한 페이지
 
-## Build the Theme
+### 철학
 
-Follow these instructions to build the theme.
-
-### 1. Download the theme
+[괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저][book-review-schopenhauer]
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
@@ -82,6 +81,11 @@ bundle exec jekyll serve
 ```
 
 If you want to shorten this long command, you can put this code in a file such as jekyll.sh (on a Mac) and then simply type `. jekyll.sh` to build Jekyll.
+
+## Sample(ing)
+
+{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+
 
 ## Running the site in Docker
 
