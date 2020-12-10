@@ -22,7 +22,7 @@ The similar project was tried while I was in Sri-lanka(2005~2007) and this was m
 
 ### 철학   
 
-[book_review_schopenhauer]
+[괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저][book_review_schopenhauer]
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
