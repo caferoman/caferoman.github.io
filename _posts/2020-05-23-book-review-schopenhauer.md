@@ -3,8 +3,6 @@ title:  "괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저"
 published: true
 permalink: book-review-schopenhauer.html
 summary: "철학계의 옴므파탈, 개인적으로 내게 가장 영향력 있는 철학자"
-categories: [ Words ]
-tags: [ Book Review ]
 image: images/br001.jfif
 ---
 
