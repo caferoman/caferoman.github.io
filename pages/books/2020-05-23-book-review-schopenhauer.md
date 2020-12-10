@@ -1,8 +1,12 @@
 ---
 title:  "괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저"
-published: true
-permalink: book-review-schopenhauer.html
+tags: [getting_started]
+last_updated: May 3, 2020
+keywords: book, book review, schopenhauer, philosophy
 summary: "철학계의 옴므파탈, 개인적으로 내게 가장 영향력 있는 철학자"
+sidebar: mydoc_sidebar
+permalink: book-review-schopenhauer.html
+folder: books
 image: images/br001.jfif
 ---
 
@@ -20,7 +24,7 @@ image: images/br001.jfif
 
 언뜻 보기에 오늘을 발버둥치며 살아가는 우리에게 '아이고 의미없다'라며 냉소적인 관조를 보이는 것 같다가도 그의 문장과 생각들을 곱씹다보면 그 행간에서 '인생 힘들지? 근데 그거 어떨 수 없어, 너나 나나 다 그래' 라는 위로를 전하는 철학계 옴므파탈.
 
-#### **의외로 건성건성 살지 않았던 그의 일침**
+### **의외로 건성건성 살지 않았던 그의 일침**
 
 이 책을 읽으면서 쇼펜하우어를 다시 보게 된 구절은 책의 말미에 나오는 그의 일생에 관련된 기술이었다.
 
@@ -30,5 +34,3 @@ image: images/br001.jfif
 
 하다 못해 철학자인 쇼펜하우어도 하루에 15분씩 이라도 악기연습을 게을리하지 않았는데...
 본의 아니게 가장 찔리는 대목이었다.
-
-{% include links.html %}
