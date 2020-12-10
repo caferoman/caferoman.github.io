@@ -5,8 +5,8 @@ last_updated: May 3, 2020
 keywords: book, book review, schopenhauer, philosophy
 summary: "철학계의 옴므파탈, 개인적으로 내게 가장 영향력 있는 철학자"
 sidebar: mydoc_sidebar
-permalink: book_review_schopenhauer.html
-folder: mydoc
+permalink: philosophy_schopenhauer.html
+folder: books
 ---
 
 ## **개인적으로 가장 큰 영향을 준 철학자, 쇼펜하우어**

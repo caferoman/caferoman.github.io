@@ -22,9 +22,8 @@ The similar project was tried while I was in Sri-lanka(2005~2007) and this was m
 
 ### 철학   
 
-This is the test for book list.
-
-* [book_review_schopenhauer](book_review_schopenhauer)
+- [괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저](philosophy_schopenhauer)
+- [무력할 땐 아리스토텔레스 - 다미앵 클레르제-귀르노](philosophy_aristotle)
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
