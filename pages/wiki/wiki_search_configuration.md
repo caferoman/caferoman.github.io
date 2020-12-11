@@ -20,7 +20,7 @@ By default, every page is included in the search. Depending on the type of conte
 
 If you want to exclude a page from search add `search: exclude` in the page's frontmatter.
 
-## Troubleshooting search
+## Books search
 
 You should exclude any files from search that you don't want appearing in the search results. For example, if you have a tooltips.json file or prince-list.txt, don't include it, as the formatting will break the JSON format.
 

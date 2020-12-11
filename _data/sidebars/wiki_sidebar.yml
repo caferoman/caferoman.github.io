@@ -244,13 +244,13 @@ entries:
       url: /wiki_shuffle.html
       output: web, pdf
 
-  - title: Troubleshooting
+  - title: Books
     output: web, pdf
 
     folderitems:
 
-    - title: Troubleshooting
-      url: /wiki_troubleshooting.html
+    - title: Books
+      url: /wiki_books.html
       output: web, pdf
 
   - title: Tag archives
@@ -290,6 +290,6 @@ entries:
           url: /tag_collaboration.html
           output: web
 
-        - title: Troubleshooting pages
-          url: /tag_troubleshooting.html
+        - title: Books pages
+          url: /tag_books.html
           output: web

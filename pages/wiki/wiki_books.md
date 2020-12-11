@@ -1,11 +1,11 @@
 ---
-title: Troubleshooting
-tags: [troubleshooting]
+title: Books
+tags: [books]
 keywords: trouble, problems, support, error messages, problems, failure, error, #fail
 last_updated: July 3, 2016
 summary: "This page lists common errors and the steps needed to troubleshoot them."
 sidebar: wiki_sidebar
-permalink: wiki_troubleshooting.html
+permalink: wiki_books.html
 folder: wiki
 ---
 
@@ -68,11 +68,11 @@ pdf_sidebar: product2_sidebar
 
 Make sure each TOC item has an output property that specifies web or pdf.
 
-Understanding how the theme works can be helpful in troubleshooting. The \_includes/sidebar.html file loops through the values in the \_data/sidebar.yml file. There are `if` statements that check whether the conditions (as specified in the conditions.html file) are met. If the sidebar.yml item doesn't have the right output, then it won't get displayed in the sidebar. It would instead get skipped.
+Understanding how the theme works can be helpful in books. The \_includes/sidebar.html file loops through the values in the \_data/sidebar.yml file. There are `if` statements that check whether the conditions (as specified in the conditions.html file) are met. If the sidebar.yml item doesn't have the right output, then it won't get displayed in the sidebar. It would instead get skipped.
 
 ### Sidebar isn't collapsed
 
-If the sidebar levels aren't collapsed, usually your JavaScript is broken somewhere. Open the JavaScript Console and look to see where the problem is. If one script breaks, then other scripts will break too, so troubleshooting it is a little tricky.
+If the sidebar levels aren't collapsed, usually your JavaScript is broken somewhere. Open the JavaScript Console and look to see where the problem is. If one script breaks, then other scripts will break too, so books it is a little tricky.
 
 ### Search isn't working
 
