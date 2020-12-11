@@ -40,10 +40,6 @@ entries:
       url: /wiki_about.html
       output: web, pdf
 
-    - title: Support
-      url: /wiki_support.html
-      output: web, pdf
-
   - title: Release Notes
     output: web, pdf
     folderitems:
