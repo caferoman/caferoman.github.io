@@ -240,15 +240,14 @@ entries:
     output: web, pdf
 
     folderitems:
-
     - title: Books
       url: /wiki_books.html
       output: web, pdf
 
   - title: Tag archives
     output: web
-    folderitems:
 
+    folderitems:
     - title: Tag archives overview
       url: /wiki_tag_archives_overview.html
       output: web
@@ -281,7 +280,6 @@ entries:
         - title: Publishing pages
           url: /tag_publishing.html
           output: web
-
 
         - title: Collaboration pages
           url: /tag_collaboration.html
