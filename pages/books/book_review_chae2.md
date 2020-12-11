@@ -1,6 +1,6 @@
 ---
 title:  "지적 대화를 위한 넓고 얕은 지식 2 - 채사장"
-tags: [books]
+tags: [news, books]
 last_updated: Dec 11, 2020
 keywords: book, book review, 채사장, 인문학
 summary: "인류의 절대주의, 상대주의, 회의주의에 대한 인문학적 고찰"
