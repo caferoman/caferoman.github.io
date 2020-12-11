@@ -18,9 +18,11 @@ folder: wiki
 
 - [괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저](philosophy_schopenhauer)
 - [무력할 땐 아리스토텔레스 - 다미앵 클레르제-귀르노](philosophy_aristotle)
+- [우울한 날엔 니체 - 발타자르 토마스 저](philosophy_nietzsche)
 
 ### 인문학
 
+- [지적 대화를 위한 넓고 얕은 지식 1 - 채사장](humanities_chae1.html)
 - [지적 대화를 위한 넓고 얕은 지식 2 - 채사장](humanities_chae2.html)
 
 {% include links.html %}
