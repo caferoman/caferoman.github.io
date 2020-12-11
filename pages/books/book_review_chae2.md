@@ -1,5 +1,5 @@
 ---
-title:  "괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저"
+title:  "지적 대화를 위한 넓고 얕은 지식 2 - 채사장"
 tags: [book]
 last_updated: Dec 11, 2020
 keywords: book, book review, 채사장, 인문학
