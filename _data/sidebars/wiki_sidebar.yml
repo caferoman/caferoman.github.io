@@ -216,6 +216,26 @@ entries:
       url: /wiki_publishing_github_pages.html
       output: web, pdf
 
+  - title: Special layouts
+    output: web, pdf
+
+    folderitems:
+    - title: Knowledge-base layout
+      url: /wiki_kb_layout.html
+      output: web, pdf
+
+    - title: Glossary layout
+      url: /wiki_glossary.html
+      output: web, pdf
+
+    - title: FAQ layout
+      url: /wiki_faq_layout.html
+      output: web, pdf
+
+    - title: Shuffle layout
+      url: /wiki_shuffle.html
+      output: web, pdf
+
   - title: Reviews
     output: web, pdf
 
