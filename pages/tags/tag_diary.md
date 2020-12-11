@@ -1,8 +1,8 @@
 ---
-title: "Special layout pages"
-tagName: special_layouts
+title: "Diary pages"
+tagName: dairy
 search: exclude
-permalink: tag_special_layouts.html
+permalink: tag_dairy.html
 sidebar: wiki_sidebar
 folder: tags
 ---
