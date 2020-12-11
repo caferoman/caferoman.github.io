@@ -110,7 +110,6 @@ entries:
 
   - title: Diary
     output: web, pdf
-
     folderitems:
 
     - title: Diary Overview
@@ -217,7 +216,7 @@ entries:
       url: /wiki_publishing_github_pages.html
       output: web, pdf
 
-  - title: Books
+  - title: Reviews
     output: web, pdf
 
     folderitems:
