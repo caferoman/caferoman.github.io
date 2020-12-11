@@ -1,33 +1,24 @@
 ---
-title: Labels
+title: About 조은찬(曺恩燦)
 tags: [formatting]
-keywords: labels, buttons, bootstrap, api methods
-last_updated: July 3, 2016
-summary: "Labels are just a simple Bootstrap component that you can include in your pages as needed. They represent one of many Bootstrap options you can include in your theme."
+keywords: 조은찬
+last_updated: Dec 11, 2020
+summary: "조은찬 / 2020.12.02 10:16AM / 3.22kg"
 sidebar: wiki_sidebar
 permalink: wiki_labels.html
 folder: wiki
 ---
 
-## About labels
-Labels might come in handy for adding button-like tags next to elements, such as POST, DELETE, UPDATE methods for endpoints. You can use any classes from Bootstrap in your content.
+## 조은찬
+### Profile
 
-```html
-<span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
-```
+- 이름 : 조은찬(曺恩燦)
+- 생년월일 : 2020년 12월 2일 오전 10시 16분
+- 창녕 조씨(昌寧 曺氏) 부제학공파(副提學公派) 44세
+- 조음환(曺音煥) - 조대득(曺大得) - 조은찬(曺恩燦)
 
-<span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
+### 특이사항
 
-You can have a label appear within a heading simply by including the span tag in the heading. However, you can't mix Markdown syntax with HTML, so you'd have to hard-code the heading ID for the auto-TOC to work.
+
 
 {% include links.html %}
