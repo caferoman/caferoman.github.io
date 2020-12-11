@@ -7,7 +7,13 @@ permalink: index.html
 summary: This is personal wikipedia for about sing-a-song writer's note, reader's review and the things that I am interested in.
 ---
 
-{% include wiki_diary.html %}
+## 三文章日記 (Write a diary with three sentences)
+
+This is one of my To-Do-List in 2021.
+The similar project was tried while I was in Sri-lanka(2005~2007) and this was much tough than the former.
+(Keeping diarys every day in four languages: Korean, English, Sinhalese and German.)
+
+[三文章日記(2020)](japanese_diary)
 
 ## Double D's Book Shelf - 더블디의 독서노트
 

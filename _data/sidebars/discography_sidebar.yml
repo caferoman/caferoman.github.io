@@ -23,7 +23,7 @@ entries:
   - title: Getting Started
     output: web, pdf
     folderitems:
-    - title: Discography home
+    - title: Product 1 home
       url: /discography_page.html
       output: web
 
