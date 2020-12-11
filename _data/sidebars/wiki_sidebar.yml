@@ -32,12 +32,25 @@ entries:
       url: /wiki_introduction.html
       output: web, pdf
 
-    - title: Supported features
-      url: /wiki_supported_features.html
+  - title: Diary
+    output: web, pdf
+
+    folderitems:
+    - title: Diary Overview
+      url: /wiki_diary.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /wiki_about.html
+    - title: 三文章日記
+      url: /wiki_japanese_diary.html
+      output: web, pdf
+
+  - title: Reviews
+    output: web, pdf
+
+    folderitems:
+
+    - title: Books
+      url: /wiki_books.html
       output: web, pdf
 
   - title: Release Notes
@@ -86,18 +99,6 @@ entries:
 
     - title: Atom editor tips
       url: /wiki_atom_text_editor.html
-      output: web, pdf
-
-  - title: Diary
-    output: web, pdf
-
-    folderitems:
-    - title: Diary Overview
-      url: /wiki_diary.html
-      output: web, pdf
-
-    - title: 三文章日記
-      url: /wiki_japanese_diary.html
       output: web, pdf
 
   - title: Formatting
@@ -214,15 +215,6 @@ entries:
 
     - title: Shuffle layout
       url: /wiki_shuffle.html
-      output: web, pdf
-
-  - title: Reviews
-    output: web, pdf
-
-    folderitems:
-
-    - title: Books
-      url: /wiki_books.html
       output: web, pdf
 
   - title: Tag archives

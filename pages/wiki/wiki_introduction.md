@@ -5,26 +5,52 @@ permalink: wiki_introduction.html
 folder: wiki
 ---
 
-## Overview
+## Discography
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
+### [정규]
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
+<p float="left">
+  <img src="images/a0.jpg" width="100" />
+  <img src="images/a1.jpg" width="100" />
+  <img src="images/ab1.jpg" width="100" />
+  <img src="images/ab2.jpg" width="100" />
+</p>
 
-## Survey of features
+임시휴업 – 조대득밴드(2011)
 
-Some of the more prominent features of this theme include the following:
+여기까지 – 조대득밴드(2013)
 
-* Bootstrap framework
-* [Navgoco multi-level sidebar](http://www.komposta.net/article/navgoco) for table of contents
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
-* Advanced landing page layouts from the [Modern Business theme](http://startbootstrap.com/template-overviews/modern-business/).
+장난감정리 – 방바닥밴드(2014)
 
-## Getting started
+달밤에커피 - 방바닥밴드(2019)
 
-To get started, see [Getting Started][index].
+### [싱글]
+
+<p float="left">
+  <img src="images/s1.jpg" width="100" />
+  <img src="images/s2.jpg" width="100" />
+  <img src="images/s3.jpg" width="100" />
+  <img src="images/s4.jpg" width="100" />
+</p>
+
+No.1 Oreo Rae - 조대득 밴드 (2018.01.31)
+
+No.2 Lullaby - 조대득 밴드 (2018.03.05)
+
+No.3 Re-Wined - 조대득 밴드 (2018.04.23)
+
+No.4 Honey Bitter Chip - 조대득 밴드 (2019.11.21)
+
+
+## I am…
+
+동시대 사소한 일상을 살아가는 노래 그것이 허세라면 허세
+상상력 결핍으로 겪지 않은 일을 노래로 만들지 못하는 뻔한 리얼리즘
+dim7 를 연주해도 마냥 밝기만 한 보컬톤과 멜로디는 어찌할 방도가 없는
+녹음할 때는 소규모 모던락 밴드, 무대에서는 어쿠스틱 원맨밴드
+
+<a target="_blank" href="https://facebook.com/muzineer" class="btn btn-dark">[Facebook Page]</a>
+<a target="_blank" href="https://www.youtube.com/channel/UCYyd9dp6q4Ca6FB-6XjJEYw?view_as=subscriber" class="btn btn-dark">[YouTube Channel]</a>
+
 
 {% include links.html %}
