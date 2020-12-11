@@ -219,10 +219,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /wiki_about_ruby_gems_etc.html
-      output: web, pdf
-
     - title: Install Jekyll on Mac
       url: /wiki_install_jekyll_on_mac.html
       output: web, pdf
