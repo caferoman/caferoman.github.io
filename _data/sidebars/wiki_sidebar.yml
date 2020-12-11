@@ -56,22 +56,6 @@ entries:
       url: /wiki_release_notes_50.html
       output: web, pdf
 
-  - title: Installation
-    output: web, pdf
-    folderitems:
-
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /wiki_about_ruby_gems_etc.html
-      output: web, pdf
-
-    - title: Install Jekyll on Mac
-      url: /wiki_install_jekyll_on_mac.html
-      output: web, pdf
-
-    - title: Install Jekyll on Windows
-      url: /wiki_install_jekyll_on_windows.html
-      output: web, pdf
-
   - title: Authoring
     output: web, pdf
 
@@ -108,7 +92,7 @@ entries:
       url: /wiki_atom_text_editor.html
       output: web, pdf
 
-  - title: Navigation
+  - title: Diary
     output: web, pdf
 
     folderitems:
@@ -120,12 +104,6 @@ entries:
       url: /wiki_yaml_tutorial.html
       output: web, pdf
 
-    - title: Tags
-      url: /wiki_tags.html
-      output: web, pdf
-
-    - title: Series
-      url: /wiki_series.html
       output: web, pdf
 
   - title: Formatting
@@ -244,7 +222,7 @@ entries:
       url: /wiki_shuffle.html
       output: web, pdf
 
-  - title: Books
+  - title: Reviews
     output: web, pdf
 
     folderitems:
@@ -266,6 +244,14 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Books pages
+          url: /tag_books.html
+          output: web
+
+        - title: Diary pages
+          url: /tag_diary.html
+          output: web
+
         - title: Formatting pages
           url: /tag_formatting.html
           output: web
@@ -282,14 +268,7 @@ entries:
           url: /tag_publishing.html
           output: web
 
-        - title: Special layout pages
-          url: /tag_special_layouts.html
-          output: web
-
         - title: Collaboration pages
           url: /tag_collaboration.html
           output: web
 
-        - title: Books pages
-          url: /tag_books.html
-          output: web
