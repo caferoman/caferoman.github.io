@@ -1,1 +1,1 @@
-. pdf-mydoc.sh; . pdf-product1.sh; .  pdf-product2.sh;
+. pdf-wiki.sh; . pdf-discography.sh; .  pdf-product2.sh;

@@ -4,7 +4,7 @@ tags: [books]
 last_updated: May 3, 2020
 keywords: book, book review, aristotle, philosophy
 summary: "앎은 사실을 제시하지, 규범을 부과하지 않는다."
-sidebar: mydoc_sidebar
+sidebar: wiki_sidebar
 permalink: philosophy_aristotle.html
 folder: books
 ---

@@ -4,7 +4,7 @@ tags: [news, getting_started]
 last_updated: Jul 25, 2020
 keywords: book, book review, schopenhauer, philosophy
 summary: "나니아 연대기 그 첫번째 장, 마법사의 조카"
-sidebar: mydoc_sidebar
+sidebar: wiki_sidebar
 permalink: book_review_nania.html
 folder: books
 ---

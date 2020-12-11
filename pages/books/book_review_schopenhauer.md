@@ -1,10 +1,10 @@
 ---
 title:  "괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저"
-tags: [getting_started]
+tags: [books]
 last_updated: May 3, 2020
 keywords: book, book review, schopenhauer, philosophy
 summary: "철학계의 옴므파탈, 개인적으로 내게 가장 영향력 있는 철학자"
-sidebar: mydoc_sidebar
+sidebar: wiki_sidebar
 permalink: philosophy_schopenhauer.html
 folder: books
 ---
