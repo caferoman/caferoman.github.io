@@ -96,14 +96,12 @@ entries:
     output: web, pdf
 
     folderitems:
+    - title: Diary Overview
+      url: /wiki_diary.html
+      output: web, pdf
+
     - title: 三文章日記
-      url: /japanese_diary.html
-      output: web, pdf
-
-    - title: YAML tutorial in the context of Jekyll
-      url: /wiki_yaml_tutorial.html
-      output: web, pdf
-
+      url: /wiki_japanese_diary.html
       output: web, pdf
 
   - title: Formatting
