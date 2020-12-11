@@ -108,16 +108,24 @@ entries:
       url: /wiki_atom_text_editor.html
       output: web, pdf
 
-  - title: Diary
+  - title: Navigation
     output: web, pdf
-    folderitems:
 
-    - title: Diary Overview
-      url: /wiki_diary.html
+    folderitems:
+    - title: 三文章日記
+      url: /japanese_diary.html
       output: web, pdf
 
-    - title: 三文章日記
-      url: /wiki_japanese_diary.html
+    - title: YAML tutorial in the context of Jekyll
+      url: /wiki_yaml_tutorial.html
+      output: web, pdf
+
+    - title: Tags
+      url: /wiki_tags.html
+      output: web, pdf
+
+    - title: Series
+      url: /wiki_series.html
       output: web, pdf
 
   - title: Formatting
@@ -240,14 +248,15 @@ entries:
     output: web, pdf
 
     folderitems:
+
     - title: Books
       url: /wiki_books.html
       output: web, pdf
 
   - title: Tag archives
     output: web
-
     folderitems:
+
     - title: Tag archives overview
       url: /wiki_tag_archives_overview.html
       output: web
