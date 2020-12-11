@@ -1,8 +1,8 @@
 ---
 title: 三文章日記
-tags: [getting_started]
+tags: [diary]
 last_updated: July 3, 2016
-keywords: sidebar, accordion, yaml, Japanese, Diary, navigation, attributes, conditional filtering
+keywords: diary, japanese, Japanese, Diary
 summary: "Keeping a diary with three sentences"
 sidebar: wiki_sidebar
 permalink: japanese_diary.html
@@ -31,3 +31,5 @@ JLPTがキャンセルされたし、ウンチャンちゃんが生まれたこ�
 先月久しぶりに高校の友達に会った。
 印象的だったことは私の周りの人々と違って彼らは私とは正反対の政治的性向を持っていたと言う点だった。
 現検察と医療陣を擁護しながら”公正”を言及して社会の分裂を助長する現政権の問題だからと言うなんて、実にとんでもない。
+
+{% include links.html %}
