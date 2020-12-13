@@ -2,6 +2,9 @@
 # If you are using the createtag script, don't leave an blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
+  - news
+  - diary
+  - books
   - getting_started
   - content_types
   - navigation
@@ -9,6 +12,3 @@ allowed-tags:
   - publishing
   - single_sourcing
   - collaboration
-  - news
-  - diary
-  - books
