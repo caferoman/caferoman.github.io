@@ -2,7 +2,7 @@
 title: "Diary pages"
 tagName: diary
 search: exclude
-permalink: tag_dairy.html
+permalink: tag_diary.html
 sidebar: wiki_sidebar
 folder: tags
 ---
