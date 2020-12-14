@@ -219,42 +219,28 @@ entries:
 
   - title: Tag archives
     output: web
-    folderitems:
 
-    - title: Tag archives overview
-      url: /wiki_tag_archives_overview.html
+    folderitems:
+    - title: Books pages
+      url: /tag_books.html
       output: web
 
-      subfolders:
-      - title: Tag archive pages
-        output: web
-        subfolderitems:
+    - title: Diary pages
+      url: /tag_diary.html
+      output: web
 
-        - title: Books pages
-          url: /tag_books.html
-          output: web
+    - title: Formatting pages
+      url: /tag_formatting.html
+      output: web
 
-        - title: Diary pages
-          url: /tag_diary.html
-          output: web
+    - title: Navigation pages
+      url: /tag_navigation.html
+      output: web
 
-        - title: Formatting pages
-          url: /tag_formatting.html
-          output: web
+    - title: Publishing pages
+      url: /tag_publishing.html
+      output: web
 
-        - title: Navigation pages
-          url: /tag_navigation.html
-          output: web
-
-        - title: Content types pages
-          url: /tag_content_types.html
-          output: web
-
-        - title: Publishing pages
-          url: /tag_publishing.html
-          output: web
-
-        - title: Collaboration pages
-          url: /tag_collaboration.html
-          output: web
-
+    - title: Collaboration pages
+      url: /tag_collaboration.html
+      output: web
