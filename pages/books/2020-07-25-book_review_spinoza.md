@@ -5,7 +5,7 @@ last_updated: May 3, 2020
 keywords: book, book review, spinoza, philosophy
 summary: "모든 철학자에게는 두 명의 철학자가 있다. 자기 자신과 스피노자다. — 앙리 베르그송"
 sidebar: wiki_sidebar
-permalink: philosophy_schopenhauer.html
+permalink: philosophy_spinoza.html
 folder: books
 ---
 
