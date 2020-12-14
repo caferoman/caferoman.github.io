@@ -54,16 +54,16 @@ folder: wiki
     </div>
    
 
-    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["content-types"]'>
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["books"]'>
 
         <div class="panel panel-default">
-            <div class="panel-heading">Content types</div>
+            <div class="panel-heading">Book Reviews</div>
             <div class="panel-body">
-                This section lists different content types and how to work with them.
+                내 자신의 기억력을 신뢰하지 않기에 책을 읽으면서 남겨둔 밑줄, 책갈피가 있었던 구절들을 모아놓은 페이지
                 <ul>
                     {% for page in site.pages %}
                     {% for tag in page.tags %}
-                    {% if tag == "content-types" %}
+                    {% if tag == "books" %}
                     <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                     {% endif %}
                     {% endfor %}
