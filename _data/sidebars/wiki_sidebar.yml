@@ -236,11 +236,3 @@ entries:
     - title: Navigation pages
       url: /tag_navigation.html
       output: web
-
-    - title: Publishing pages
-      url: /tag_publishing.html
-      output: web
-
-    - title: Collaboration pages
-      url: /tag_collaboration.html
-      output: web
