@@ -229,8 +229,8 @@ entries:
       url: /tag_diary.html
       output: web
 
-    - title: Formatting pages
-      url: /tag_formatting.html
+    - title: Albums pages
+      url: /tag_albums.html
       output: web
 
     - title: Navigation pages

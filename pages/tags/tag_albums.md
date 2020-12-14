@@ -1,8 +1,8 @@
 ---
-title: "Formatting pages"
-tagName: formatting
+title: "Albums pages"
+tagName: albums
 search: exclude
-permalink: tag_formatting.html
+permalink: tag_albums.html
 sidebar: wiki_sidebar
 folder: tags
 ---
