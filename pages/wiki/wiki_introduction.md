@@ -11,7 +11,7 @@ folder: wiki
 
 Test pages
 
-{% include carousel.html height="50" unit="%" duration="7" %}
+{% include carousel.html height="100" unit="%" duration="7" %}
 
 <p float="left">
   <img src="images/a0.jpg" width="100" />
