@@ -9,6 +9,13 @@ folder: wiki
 
 ### [정규]
 
+{% slider %}
+  [![임시휴업 – 조대득밴드(2011)](a0.jpg)](/images)
+  [![여기까지 – 조대득밴드(2013))](a1.jpg)](/images)
+  [![ 장난감정리 – 방바닥밴드(2014)](ab1.jpg)](/images)
+  [![달밤에커피 - 방바닥밴드(2019)](ab1.jpg)](/images)
+{% endslider %}
+
 <p float="left">
   <img src="images/a0.jpg" width="100" />
   <img src="images/a1.jpg" width="100" />
@@ -16,7 +23,6 @@ folder: wiki
   <img src="images/ab2.jpg" width="100" />
 </p>
 
-임시휴업 – 조대득밴드(2011)
 
 여기까지 – 조대득밴드(2013)
 
