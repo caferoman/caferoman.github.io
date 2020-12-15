@@ -93,9 +93,6 @@ defaults:
       sidebar: home_sidebar
       topnav: topnav
 
-# Ideal image slider
-iis_slider_array: []
-
 comment:
   type: disqus
   shortname: caferoman
