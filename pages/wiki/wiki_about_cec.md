@@ -1,11 +1,11 @@
 ---
 title: About 조은찬(曺恩燦)
-tags: [formatting]
+tags: [about]
 keywords: 조은찬
 last_updated: Dec 11, 2020
 summary: "조은찬 / 2020.12.02 10:16AM / 3.22kg"
 sidebar: wiki_sidebar
-permalink: wiki_labels.html
+permalink: wiki_about_cec.html
 folder: wiki
 ---
 
@@ -19,6 +19,6 @@ folder: wiki
 
 ### 특이사항
 
-
+ - 울음이 상당히 짧다(기저귀 교체, 식사 요구 등 필요한 의사전달만 되면 바로 울음을 멈춘다) - 2020.12.18
 
 {% include links.html %}

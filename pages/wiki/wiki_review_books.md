@@ -5,7 +5,7 @@ keywords: books, review
 last_updated: Dec 11, 2020
 summary: "책을 읽으면서 마음에 들었던 구절과 짦은 소감이 포함된 페이지"
 sidebar: wiki_sidebar
-permalink: wiki_books.html
+permalink: review_books.html
 folder: wiki
 ---
 
