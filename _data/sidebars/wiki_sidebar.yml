@@ -32,6 +32,10 @@ entries:
       url: /wiki_introduction.html
       output: web, pdf
 
+    - title: About 조은찬
+      url: /wiki_about_cec.html
+      output: web, pdf
+
   - title: Diary
     output: web, pdf
 
@@ -123,10 +127,6 @@ entries:
 
     - title: Code samples
       url: /wiki_code_samples.html
-      output: web, pdf
-
-    - title: Labels
-      url: /wiki_labels.html
       output: web, pdf
 
     - title: Links
