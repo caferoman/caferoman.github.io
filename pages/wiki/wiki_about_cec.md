@@ -5,7 +5,7 @@ keywords: 조은찬
 last_updated: Dec 11, 2020
 summary: "조은찬 / 2020.12.02 10:16AM / 3.22kg"
 sidebar: wiki_sidebar
-permalink: wiki_about_cec.html
+permalink: about_cec.html
 folder: wiki
 ---
 

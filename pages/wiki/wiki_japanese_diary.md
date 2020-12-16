@@ -5,7 +5,7 @@ last_updated: July 3, 2016
 keywords: diary, japanese, Japanese, Diary
 summary: "Keeping a diary with three sentences"
 sidebar: wiki_sidebar
-permalink: wiki_japanese_diary.html
+permalink: japanese_diary.html
 folder: wiki
 ---
 
