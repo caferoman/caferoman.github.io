@@ -24,7 +24,7 @@
               <label class="carousel_singles__control carousel_singles__control--forward" for="{{ nextletter }}"></label>
           </div>
         {% endfor %}
-        <div class="carousel__track">
+        <div class="carousel_singles__track">
           <ul>
             {% for item in site.data.carousel_singles.images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
@@ -33,7 +33,7 @@
         </div>
         <div class="carousel_singles__indicators">
             {% for item in site.data.carousel_singles.images %}
-              <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+              <label class="carousel_singles__indicator" for="{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
@@ -41,7 +41,7 @@
 
 <style>
 .carousel_singles__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
-.carousel {
+.carousel_singles {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -54,7 +54,7 @@
   display: none;
 }
 {% for item in site.data.carousel_singles.images %}
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
+.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__track {
   -webkit-transform: translateX(-{{ forloop.index0 }}00%);
           transform: translateX(-{{ forloop.index0 }}00%);
 }
@@ -73,7 +73,7 @@
   display: block;
   opacity: 1;
 }
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
+.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop.index }}) {
   opacity: 1;
 }
 {% endfor %}
@@ -113,7 +113,7 @@
   width: 100%;
   text-align: center;
 }
-.carousel__indicator {
+.carousel_singles__indicator {
   height: 15px;
   width: 15px;
   border-radius: 100%;
@@ -123,10 +123,10 @@
   opacity: 0.35;
   margin: 0 2.5px 0 2.5px;
 }
-.carousel__indicator:hover {
+.carousel_singles__indicator:hover {
   opacity: 0.75;
 }
-.carousel__track {
+.carousel_singles__track {
   position: absolute;
   top: 0;
   right: 0;
@@ -138,7 +138,7 @@
   transition: transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
-.carousel__track .carousel__slide {
+.carousel_singles__track .carousel__slide {
   display: block;
   top: 0;
   left: 0;
@@ -146,7 +146,7 @@
   opacity: 1;
 }
 {% for item in site.data.carousel_singles.images %}
-.carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
+.carousel_singles__track .carousel__slide:nth-of-type({{ forloop.index }}) {
   -webkit-transform: translateX({{ forloop.index0 }}00%);
           transform: translateX({{ forloop.index0 }}00%);
 }
@@ -163,16 +163,16 @@
   overflow: hidden;
 }
 .carousel__slide .overlay {height: 100%;}
-.carousel--thumb .carousel__indicator {
+.carousel--thumb .carousel_singles__indicator {
   height: 30px;
   width: 30px;
 }
-.carousel__indicator {
+.carousel_singles__indicator {
   background-color: #fafafa;
 }
 {% for item in site.data.carousel_singles.images %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
-.carousel--thumb .carousel_singles__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
+.carousel--thumb .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop.index }}) {
   background-size: cover;
   background-position: center;
 }
