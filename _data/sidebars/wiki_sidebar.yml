@@ -54,7 +54,7 @@ entries:
     folderitems:
 
     - title: Book Reviews
-      url: /wiki_review_books.html
+      url: /review_books.html
       output: web, pdf
 
   - title: Release Notes
