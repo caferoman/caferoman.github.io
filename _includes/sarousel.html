@@ -8,17 +8,17 @@
         {% endfor %}
         {% for item in site.data.sarousel.images %}
           {% if forloop.index == forloop.length %}
-            {% assign nextindex = 0 %}
+            {% assign snextindex = 0 %}
           {% else %}
-            {% assign nextindex = forloop.index0 | plus: 1 %}
+            {% assign snextindex = forloop.index0 | plus: 1 %}
           {% endif %}
-          {% assign nextletter = letters[nextindex] %}
+          {% assign snextletter = letters[snextindex] %}
           {% if forloop.index0 == 0 %}
-            {% assign previndex = forloop.length | minus: 1 %}
+            {% assign sprevindex = forloop.length | minus: 1 %}
           {% else %}
-            {% assign previndex = forloop.index0 | minus: 1 %}
+            {% assign sprevindex = forloop.index0 | minus: 1 %}
           {% endif %}
-          {% assign prevletter = letters[previndex] %}
+          {% assign prevletter = letters[sprevindex] %}
           <div class="sarousel__controls">
               <label class="sarousel__control sarousel__control--backward" for="{{ prevletter }}"></label>
               <label class="sarousel__control sarousel__control--forward" for="{{ nextletter }}"></label>
