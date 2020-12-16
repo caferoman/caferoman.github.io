@@ -24,7 +24,7 @@ Test pages
 
 ### [싱글]
 
-{% include carousel_singles.html height="100" unit="%" duration="7" %}
+{% include sarousel.html height="100" unit="%" duration="7" %}
 
 [No.1 Oreo Rae - 조대득 밴드 (2018.01.31)](https://www.genie.co.kr/detail/albumInfo?axnm=81026884)
 
