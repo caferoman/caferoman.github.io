@@ -12,16 +12,16 @@
           {% else %}
             {% assign nextindex_singles = forloop_singles.index0 | plus: 1 %}
           {% endif %}
-          {% assign nextletter = letters_singles[nextindex_singles] %}
+          {% assign nextletter_singles = letters_singles[nextindex_singles] %}
           {% if forloop_singles.index0 == 0 %}
             {% assign previndex_singles = forloop_singles.length | minus: 1 %}
           {% else %}
             {% assign previndex_singles = forloop_singles.index0 | minus: 1 %}
           {% endif %}
-          {% assign prevletter = letters_singles[previndex_singles] %}
+          {% assign prevletter_singles = letters_singles[previndex_singles] %}
           <div class="carousel_singles__controls">
-              <label class="carousel_singles__control carousel_singles__control--backward" for="{{ prevletter }}"></label>
-              <label class="carousel_singles__control carousel_singles__control--forward" for="{{ nextletter }}"></label>
+              <label class="carousel_singles__control carousel_singles__control--backward" for="{{ prevletter_singles }}"></label>
+              <label class="carousel_singles__control carousel_singles__control--forward" for="{{ nextletter_singles }}"></label>
           </div>
         {% endfor %}
         <div class="carousel_singles__track">
