@@ -33,7 +33,7 @@ entries:
       output: web, pdf
 
     - title: About 조은찬
-      url: /wiki_about_cec.html
+      url: /about_cec.html
       output: web, pdf
 
   - title: Diary
@@ -45,7 +45,7 @@ entries:
       output: web, pdf
 
     - title: 三文章日記
-      url: /wiki_japanese_diary.html
+      url: /japanese_diary.html
       output: web, pdf
 
   - title: Reviews
