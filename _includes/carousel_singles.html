@@ -1,22 +1,22 @@
-{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
-{% assign letters_singles = letterstring | split: ',' %}
+{% assign letterstring_singles = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
+{% assign letters_singles = letterstring_singles | split: ',' %}
 
 <div class="carousel_singles__holder">
     <div class="carousel_singles">
         {% for item in site.data.carousel_singles.images %}
-          <input class="carousel_singles__activator" type="radio" name="carousel_singles" id="{{ letters_singles[forloop_singles.index0] }}" {% if forloop_singles.first %}checked="checked"{% endif %} />
+          <input class="carousel_singles__activator" type="radio" name="carousel_singles" id="{{ letters_singles[forloop_singles.index0_singles] }}" {% if forloop_singles.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in site.data.carousel_singles.images %}
           {% if forloop_singles.index == forloop_singles.length %}
             {% assign nextindex_singles = 0 %}
           {% else %}
-            {% assign nextindex_singles = forloop_singles.index0 | plus: 1 %}
+            {% assign nextindex_singles = forloop_singles.index0_singles | plus: 1 %}
           {% endif %}
           {% assign nextletter_singles = letters_singles[nextindex_singles] %}
-          {% if forloop_singles.index0 == 0 %}
+          {% if forloop_singles.index0_singles == 0 %}
             {% assign previndex_singles = forloop_singles.length | minus: 1 %}
           {% else %}
-            {% assign previndex_singles = forloop_singles.index0 | minus: 1 %}
+            {% assign previndex_singles = forloop_singles.index0_singles | minus: 1 %}
           {% endif %}
           {% assign prevletter_singles = letters_singles[previndex_singles] %}
           <div class="carousel_singles__controls">
@@ -33,7 +33,7 @@
         </div>
         <div class="carousel_singles__indicators">
             {% for item in site.data.carousel_singles.images %}
-              <label class="carousel_singles__indicator" for="{{ letters_singles[forloop_singles.index0] }}"></label>
+              <label class="carousel_singles__indicator" for="{{ letters_singles[forloop_singles.index0_singles] }}"></label>
             {% endfor %}
         </div>
     </div>
@@ -55,8 +55,8 @@
 }
 {% for item in site.data.carousel_singles.images %}
 .carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel_singles__track {
-  -webkit-transform: translateX(-{{ forloop_singles.index0 }}00%);
-          transform: translateX(-{{ forloop_singles.index0 }}00%);
+  -webkit-transform: translateX(-{{ forloop_singles.index0_singles }}00%);
+          transform: translateX(-{{ forloop_singles.index0_singles }}00%);
 }
 .carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel_singles__slide:nth-of-type({{ forloop_singles.index }}) {
   transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -147,8 +147,8 @@
 }
 {% for item in site.data.carousel_singles.images %}
 .carousel_singles__track .carousel_singles__slide:nth-of-type({{ forloop_singles.index }}) {
-  -webkit-transform: translateX({{ forloop_singles.index0 }}00%);
-          transform: translateX({{ forloop_singles.index0 }}00%);
+  -webkit-transform: translateX({{ forloop_singles.index0_singles }}00%);
+          transform: translateX({{ forloop_singles.index0_singles }}00%);
 }
 {% endfor %}
 
