@@ -11,7 +11,7 @@ folder: wiki
 
 Test pages
 
-{% include carousel.html height="110" unit="%" duration="7" %}
+{% include carousel.html height="100" unit="%" duration="7" %}
 
 [임시휴업 - 조대득밴드(2011)](https://www.genie.co.kr/detail/albumInfo?axnm=80257923)
 
@@ -24,7 +24,7 @@ Test pages
 
 ### [싱글]
 
-{% include carousel_singles.html height="110" unit="%" duration="7" %}
+{% include carousel_singles.html height="100" unit="%" duration="7" %}
 
 [No.1 Oreo Rae - 조대득 밴드 (2018.01.31)](https://www.genie.co.kr/detail/albumInfo?axnm=81026884)
 
