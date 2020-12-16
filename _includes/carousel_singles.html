@@ -1,24 +1,24 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
-{% assign letters = letterstring | split: ',' %}
+{% assign letters_singles = letterstring | split: ',' %}
 
 <div class="carousel_singles__holder">
     <div class="carousel_singles">
         {% for item in site.data.carousel_singles.images %}
-          <input class="carousel_singles__activator" type="radio" name="carousel_singles" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input class="carousel_singles__activator" type="radio" name="carousel_singles" id="{{ letters_singles[forloop_singles.index0] }}" {% if forloop_singles.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in site.data.carousel_singles.images %}
-          {% if forloop.index == forloop.length %}
+          {% if forloop_singles.index == forloop_singles.length %}
             {% assign nextindex_singles = 0 %}
           {% else %}
-            {% assign nextindex_singles = forloop.index0 | plus: 1 %}
+            {% assign nextindex_singles = forloop_singles.index0 | plus: 1 %}
           {% endif %}
-          {% assign nextletter = letters[nextindex_singles] %}
-          {% if forloop.index0 == 0 %}
-            {% assign previndex_singles = forloop.length | minus: 1 %}
+          {% assign nextletter = letters_singles[nextindex_singles] %}
+          {% if forloop_singles.index0 == 0 %}
+            {% assign previndex_singles = forloop_singles.length | minus: 1 %}
           {% else %}
-            {% assign previndex_singles = forloop.index0 | minus: 1 %}
+            {% assign previndex_singles = forloop_singles.index0 | minus: 1 %}
           {% endif %}
-          {% assign prevletter = letters[previndex_singles] %}
+          {% assign prevletter = letters_singles[previndex_singles] %}
           <div class="carousel_singles__controls">
               <label class="carousel_singles__control carousel_singles__control--backward" for="{{ prevletter }}"></label>
               <label class="carousel_singles__control carousel_singles__control--forward" for="{{ nextletter }}"></label>
@@ -33,7 +33,7 @@
         </div>
         <div class="carousel_singles__indicators">
             {% for item in site.data.carousel_singles.images %}
-              <label class="carousel_singles__indicator" for="{{ letters[forloop.index0] }}"></label>
+              <label class="carousel_singles__indicator" for="{{ letters_singles[forloop_singles.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
@@ -54,11 +54,11 @@
   display: none;
 }
 {% for item in site.data.carousel_singles.images %}
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__track {
-  -webkit-transform: translateX(-{{ forloop.index0 }}00%);
-          transform: translateX(-{{ forloop.index0 }}00%);
+.carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel_singles__track {
+  -webkit-transform: translateX(-{{ forloop_singles.index0 }}00%);
+          transform: translateX(-{{ forloop_singles.index0 }}00%);
 }
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__slide:nth-of-type({{ forloop.index }}) {
+.carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel__slide:nth-of-type({{ forloop_singles.index }}) {
   transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
   transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
@@ -69,11 +69,11 @@
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__controls:nth-of-type({{ forloop.index }}) {
+.carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel_singles__controls:nth-of-type({{ forloop_singles.index }}) {
   display: block;
   opacity: 1;
 }
-.carousel_singles__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop.index }}) {
+.carousel_singles__activator:nth-of-type({{ forloop_singles.index }}):checked ~ .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop_singles.index }}) {
   opacity: 1;
 }
 {% endfor %}
@@ -146,9 +146,9 @@
   opacity: 1;
 }
 {% for item in site.data.carousel_singles.images %}
-.carousel_singles__track .carousel__slide:nth-of-type({{ forloop.index }}) {
-  -webkit-transform: translateX({{ forloop.index0 }}00%);
-          transform: translateX({{ forloop.index0 }}00%);
+.carousel_singles__track .carousel__slide:nth-of-type({{ forloop_singles.index }}) {
+  -webkit-transform: translateX({{ forloop_singles.index0 }}00%);
+          transform: translateX({{ forloop_singles.index0 }}00%);
 }
 {% endfor %}
 
@@ -171,8 +171,8 @@
   background-color: #fafafa;
 }
 {% for item in site.data.carousel_singles.images %}
-.carousel__slide:nth-of-type({{ forloop.index }}),
-.carousel--thumb .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop.index }}) {
+.carousel__slide:nth-of-type({{ forloop_singles.index }}),
+.carousel--thumb .carousel_singles__indicators .carousel_singles__indicator:nth-of-type({{ forloop_singles.index }}) {
   background-size: cover;
   background-position: center;
 }
