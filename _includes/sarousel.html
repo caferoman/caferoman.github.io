@@ -1,10 +1,10 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
-{% assign letters = letterstring | split: ',' %}
+{% assign sletters = letterstring | split: ',' %}
 
 <div class="sarousel__holder">
     <div class="sarousel">
         {% for item in site.data.sarousel.images %}
-          <input class="sarousel__activator" type="radio" name="sarousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input class="sarousel__activator" type="radio" name="sarousel" id="{{ sletters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in site.data.sarousel.images %}
           {% if forloop.index == forloop.length %}
@@ -12,13 +12,13 @@
           {% else %}
             {% assign snextindex = forloop.index0 | plus: 1 %}
           {% endif %}
-          {% assign snextletter = letters[snextindex] %}
+          {% assign snextletter = sletters[snextindex] %}
           {% if forloop.index0 == 0 %}
             {% assign sprevindex = forloop.length | minus: 1 %}
           {% else %}
             {% assign sprevindex = forloop.index0 | minus: 1 %}
           {% endif %}
-          {% assign prevletter = letters[sprevindex] %}
+          {% assign prevletter = sletters[sprevindex] %}
           <div class="sarousel__controls">
               <label class="sarousel__control sarousel__control--backward" for="{{ prevletter }}"></label>
               <label class="sarousel__control sarousel__control--forward" for="{{ nextletter }}"></label>
@@ -33,7 +33,7 @@
         </div>
         <div class="sarousel__indicators">
             {% for item in site.data.sarousel.images %}
-              <label class="sarousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+              <label class="sarousel__indicator" for="{{ sletters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
