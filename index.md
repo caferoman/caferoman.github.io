@@ -29,7 +29,7 @@ The similar project was tried while I was in Sri-lanka(2005~2007) and this was m
 
 [더블디의 독서노트](review_books)
 
-{% include review_books.html %}
+{% review_books %}
 
 ## Configure the sidebar
 
