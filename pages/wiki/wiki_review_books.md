@@ -20,6 +20,7 @@ folder: wiki
 - [무력할 땐 아리스토텔레스 - 다미앵 클레르제-귀르노](philosophy_aristotle)
 - [우울한 날엔 니체 - 발타자르 토마스 저](philosophy_nietzsche)
 - [비참한 날엔 스피노자 - 발타자르 토마스 저](philosophy_spinoza)
+- [절망한 날엔 키에르케고르 - 다미앵 클레르제-귀르노 저](philosophy_kierkegaard)
 
 ### 인문학
 
