@@ -69,6 +69,86 @@ entries:
       url: /wiki_release_notes_50.html
       output: web, pdf
 
+  - title: Authoring
+    output: web, pdf
+
+    folderitems:
+    - title: Pages
+      url: /wiki_pages.html
+      output: web, pdf
+
+    - title: Posts
+      url: /wiki_posts.html
+      output: web, pdf
+
+    - title: Lists
+      url: /wiki_lists.html
+      output: web, pdf
+
+    - title: Conditional logic
+      url: /wiki_conditional_logic.html
+      output: web, pdf
+
+    - title: Content reuse
+      url: /wiki_content_reuse.html
+      output: web, pdf
+
+    - title: Collections
+      url: /wiki_collections.html
+      output: web, pdf
+
+    - title: WebStorm editor tips
+      url: /wiki_webstorm_text_editor.html
+      output: web, pdf
+
+    - title: Atom editor tips
+      url: /wiki_atom_text_editor.html
+      output: web, pdf
+
+  - title: Formatting
+    output: web, pdf
+
+    folderitems:
+    - title: Tooltips
+      url: /wiki_adding_tooltips.html
+      output: web, pdf
+
+    - title: Alerts
+      url: /wiki_alerts.html
+      output: web, pdf
+
+    - title: Icons
+      url: /wiki_icons.html
+      output: web, pdf
+
+    - title: Images
+      url: /wiki_images.html
+      output: web, pdf
+
+    - title: Code samples
+      url: /wiki_code_samples.html
+      output: web, pdf
+
+    - title: Links
+      url: /wiki_hyperlinks.html
+      output: web, pdf
+
+    - title: Navtabs
+      url: /wiki_navtabs.html
+      output: web, pdf
+
+    - title: Tables
+      url: /wiki_tables.html
+      output: web, pdf
+
+    - title: Syntax highlighting
+      url: /wiki_syntax_highlighting.html
+      output: web, pdf
+
+    - title: Workflow maps
+      url: /wiki_workflow_maps.html
+      output: web, pdf
+
   - title: Handling reviews
     output: web, pdf
 
