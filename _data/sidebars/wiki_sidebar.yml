@@ -44,15 +44,18 @@ entries:
       url: /wiki_diary.html
       output: web, pdf
 
-    - title: 三文章日記
-      url: /japanese_diary.html
+    - title: 三文章日記(JP)
+      url: /japanese_2020-2021.html
+      output: web, pdf
+
+    - title: 一条日记(CN)
+      url: /chinese_2021.html
       output: web, pdf
 
   - title: Reviews
     output: web, pdf
 
     folderitems:
-
     - title: Book Reviews
       url: /review_books.html
       output: web, pdf

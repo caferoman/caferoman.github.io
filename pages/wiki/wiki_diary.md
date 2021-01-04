@@ -15,6 +15,8 @@ This is one of my To-Do-List in 2021.
 The similar project was tried while I was in Sri-lanka(2005~2007) and this was much tough than the former.
 (Keeping diarys every day in four languages: Korean, English, Sinhalese and German.)
 
-[三文章日記(2020-2021)](japanese_2020-2021)
+[三文章日記(2020-2021) - Japanese](japanese_2020-2021)
+
+[一条日记(2021) - Chinese](chinese_2021)
 
 {% include links.html %}
