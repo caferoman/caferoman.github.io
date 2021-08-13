@@ -12,7 +12,7 @@ tags: [news]
   곡을 쓰거나 대화를 하다가 가끔 읽었던 책의 특정 구절이 생각나지 않아 정리하기 시작한 페이지
   
   ### 철학   
-  
+
   - [괴로운 날엔 쇼펜하우어 - 셀린 벨로크 저](https://ddbook.tistory.com/2)
   - [무력할 땐 아리스토텔레스 - 다미앵 클레르제-귀르노](https://ddbook.tistory.com/3)
   - [우울한 날엔 니체 - 발타자르 토마스 저](https://ddbook.tistory.com/4)
@@ -27,6 +27,5 @@ tags: [news]
   ### 소설
   
   - [주홍색 연구 · 네 사람의 서명 - 아서 코난 도일](https://ddbook.tistory.com/10)
-
 
 {% include links.html %}
