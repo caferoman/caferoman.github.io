@@ -22,7 +22,7 @@ folder: wiki
   - [비참한 날엔 스피노자 - 발타자르 토마스 저](https://ddbook.tistory.com/5)
   - 절망한 날엔 키에르케고르 - 다미앵 클레르제-귀르노 저 [part1](https://ddbook.tistory.com/6) , [part2](https://ddbook.tistory.com/22)
 
-  - [팡세 - 블레즈 파스칼] [part1](https://ddbook.tistory.com/16)
+  - 팡세 - 블레즈 파스칼 [part1](https://ddbook.tistory.com/16)
 
   
   ### 인문학
