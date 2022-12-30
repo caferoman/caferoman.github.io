@@ -31,8 +31,12 @@ folder: wiki
  - 역대 가장 많이 분유먹고 ~~분수토~~한 날 - 2021.01.14
  - BCG 예방접종하면서 체중 측정해보니 5.8kg 최상위권 우량아급... 이제 분유를 좀 살살먹여도 될듯 - 2021.01.15
 
-![조은찬-2020](/images/cec01.jpg)
+![조은찬-2020](/images/cec01.jpg){: width="50%" height="50%"}
 
-![조은찬-2020](/images/cec02.jpg)
+![조은찬-2020](/images/cec02.jpg){: width="50%" height="50%"}
+
+![조은찬-2020](/images/cec03.jpg){: width="50%" height="50%"}
+
+![조은찬-2020](/images/cec04.jpg){: width="50%" height="50%"}
 
 {% include links.html %}
